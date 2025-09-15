@@ -26,7 +26,7 @@ metadata:
   name: guestbook-service
   namespace: default
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: guestbook
   ports:
